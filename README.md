@@ -24,4 +24,4 @@ This project predicts the prices for used cars.
 
 
 The following is the link to the web app:
-# https://cars_pred_app.herokuapp.com/  
+## https://cars-pred-app.herokuapp.com/
