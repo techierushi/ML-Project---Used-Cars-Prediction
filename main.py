@@ -15,7 +15,7 @@ st.markdown("""
 """
 , unsafe_allow_html = True)
 
-st.header("Please fill in the required details appropriately")
+st.header("*Please fill in the required details appropriately")
 
 #Prediction function
 def prediction(df):
