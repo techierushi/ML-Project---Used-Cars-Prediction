@@ -1,4 +1,4 @@
-# ML Project Used Cars Price Prediction
+# Used Cars Price Prediction
 
 This project predicts the prices for used cars.  
 
