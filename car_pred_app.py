@@ -4,7 +4,7 @@ import xgboost
 import streamlit as st
 
 html_temp = """
-<div style ="background-color:yellow;padding:13px">
+<div style ="background-color:rgb(238, 190, 144);padding:13px">
 <h1 style ="color:black;text-align:center;"> Used Car Price Prediction Portal </h1>
 </div>
 """
@@ -17,6 +17,12 @@ st.markdown("""
 
 st.header("*Please fill in the required details appropriately")
 
+st.sidebar.subheader("About App")
+
+st.sidebar.info("This web app is made as part of my Machine Learning Project")
+st.sidebar.info("Enter the details of your car as asked ")
+st.sidebar.info("Click on the 'Predict' button to check the estimated Price of your car ")
+st.sidebar.info('Developed By ~ TechieRushi (Rushikesh Shinde)')
 #Prediction function
 def prediction(df):
 
